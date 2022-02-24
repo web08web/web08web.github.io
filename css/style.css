@@ -110,7 +110,7 @@ img {
 }
 
  p  {
-    font-family: "游ゴシック体", "Yu Gothic", YuGothic, "メイリオ", normal;
+    font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
     font-size: 16px;
     margin: 16px 0 16px;
     line-height: 20px;
@@ -294,7 +294,16 @@ footer {
 }
 
 
-@media (min-width:600px) {
+@media (min-width:768px) {
+
+    main {
+        margin: 32px auto;
+    }
+
+
+    .logo img {
+        width: 15%;
+    }
 
     main span {
         font-size: 13px;
@@ -303,9 +312,16 @@ footer {
    p {
        font-size: 20px;
        line-height: 24px;
+       
    }
+
+   .zu {
+       margin: 32px 0;
+   }
+   
    .container {
       gap:0;
+      margin-bottom: 24px;
    }
 
    .container img {
