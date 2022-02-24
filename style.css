@@ -1,0 +1,346 @@
+
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+     padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+
+
+
+html {
+    font-size: 100%;
+}
+
+/* common */
+
+/* small screen */
+img {
+    width: 100%;
+}
+
+ p  {
+    font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
+    
+    font-size: 16px;
+    margin: 16px 0 16px;
+    line-height: 20px;
+    font-weight:normal;
+ }
+
+
+
+
+ ul {
+     list-style: none;
+     
+ }
+
+
+/* header */
+
+header {
+    text-align: center;
+    margin: 0;
+}
+ 
+header img {
+    width: 80px;
+  
+    margin: 16px 0 14px;
+}
+
+
+sup {
+    vertical-align:text-top;
+    font-size:small;
+    }
+
+
+
+
+
+
+main {
+    margin: 16px;
+    max-width: 1000px;
+}
+     
+
+main img {
+    width: 65%;
+    margin-top: 16px;
+    margin-bottom: 4px;
+
+
+
+
+}
+
+main span {
+    font-size: 13px;
+}
+
+
+#key_visual img {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    gap: 8px;
+
+
+
+
+}
+
+
+
+.container img {
+    width: 150px;
+}
+
+.container p {
+    width: 100%;
+}
+
+.container2 p {
+    width: 100%;
+   
+}
+.container2 img {
+    width: 100%;
+}
+
+
+.container2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+
+
+}
+
+
+
+
+.list-image img {
+    width: 40%;
+
+}
+
+.list-image2 img {
+    width: 32%;
+}
+
+.list-text p { 
+    margin: 0;
+ 
+}
+
+
+.zu {
+    width: 168%;
+    margin-bottom:24px;
+}
+
+#check-list {
+    width:155%;
+   
+    margin-bottom: 16px;
+   
+
+}
+
+#pic-b  img {
+    width: 100%;
+
+}
+
+#list-b img {
+    width: 80%;
+}
+
+#point img {
+    width: 50%; 
+}
+
+#advice-title {
+    margin-top: 40px;
+}
+
+#advice2-text img {
+    width: 50%;
+}
+
+#advice3-text {
+    margin-top: 24px;
+}
+
+
+
+.list-text p {
+    margin-bottom:16px;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
+    
+    padding: 16px 0;
+    color: #cccc;
+  
+    font-size: 10px;
+    text-align: center;
+    
+
+}
+
+
+footer p {
+    游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
+    font-weight:normal;
+}
+
+
+@media (min-width:768px) {
+
+    main {
+        margin: 32px auto;
+    }
+
+
+    .logo img {
+        width: 15%;
+    }
+
+    main span {
+        font-size: 13px;
+    }
+    
+   p {
+       font-size: 20px;
+       line-height: 24px;
+       
+   }
+
+   .zu {
+       margin: 32px 0;
+   }
+   
+   .container {
+      gap:0;
+      margin-bottom: 24px;
+   }
+
+   .container img {
+     width: 220px;
+      
+   }
+   .container p {
+       width: 95%;
+       margin: 24px 0;
+   }
+    }
+
+    
