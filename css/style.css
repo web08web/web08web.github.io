@@ -111,9 +111,11 @@ img {
 
  p  {
     font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
+    
     font-size: 16px;
     margin: 16px 0 16px;
     line-height: 20px;
+    font-weight:normal;
  }
 
 
@@ -151,7 +153,7 @@ sup {
 
 main {
     margin: 16px;
-    max-width: 1000px;
+  
 }
      
 
@@ -283,6 +285,10 @@ main span {
 
 footer {
     background-color: #333;
+    margin-top: 40px;
+
+    padding-top: 16px;
+    font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
     
     padding: 16px 0;
     color: #cccc;
@@ -294,44 +300,145 @@ footer {
 }
 
 
-@media (min-width:768px) {
+footer p {
+    游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
+    font-weight:normal;
+}
+
+
+
+
+
+@media (min-width:600px) {
+
+
+    p {
+        font-size: 24px;
+        line-height: 32px;
+        
+        
+    }
+ 
+    main span {
+     font-size: 18px;
+ }   
+
+
+
+ 
+
+
+ .container img {
+    width: 220px;
+     
+  }
+  .container p {
+      width: 100%;
+  }   
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1025px) {
 
     main {
-        margin: 32px auto;
+        margin: 32px;
+        
     }
 
 
     .logo img {
-        width: 15%;
+        width: 10%;
     }
 
-    main span {
-        font-size: 13px;
-    }
     
-   p {
-       font-size: 20px;
-       line-height: 24px;
+    
+
+
+
+    
+  p {
+       font-size: 28px;
+       line-height: 42px;
+       margin: 32px 0;
        
-   }
+ }
+
+   main span {
+    font-size: 22px;
+}   
+    #point img {
+       
+        margin-top: 32px;
+    }
+
 
    .zu {
        margin: 32px 0;
    }
    
-   .container {
+.container {
       gap:0;
-      margin-bottom: 24px;
-   }
+      margin: 40px 0;
+}
 
-   .container img {
-     width: 220px;
+.container img {
+     width: 400px;
       
-   }
-   .container p {
+}
+.container p {
        width: 95%;
-       margin: 24px 0;
-   }
+       margin-top: 8px;
+       
+}
+
+.container2 img {
+    width: 600px;
+    
+}
+
+
+.container2 p {
+    text-align: left;
+}
+
+#advice-title {
+    margin-top: 48px;
+}
+
+#advice2-text img {
+    margin-top: 48px;
+}
+
+#advice3-text {
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+
+
     }
 
     
