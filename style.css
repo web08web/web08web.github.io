@@ -1,5 +1,5 @@
 @charset "UTF-8";
-
+/*リセットCSS*/
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -93,351 +93,233 @@ hr {
 
 input, select {
     vertical-align:middle;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-
+}                                                                                                 /*リセットCSS*終わり*/     
 
 
 html {
-    font-size: 100%;
+  font-size: 62.5%;
 }
 
-/* common */
-
-/* small screen */
-img {
-    width: 100%;
+body {
+  font-family: Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-size: 1.4rem;
+  font-size: clamp(1.4rem, 2vw, 1.6rem);
+  line-height: 1.8rem;
 }
-
- p  {
-    font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
-    
-    font-size: 16px;
-    margin: 16px 0 16px;
-    line-height: 20px;
-    font-weight:normal;
- }
-
-
-
-
- ul {
-     list-style: none;
-     
- }
-
-
-/* header */
-
-header {
-    text-align: center;
-    margin: 0;
+h1 {
+  font-size: 3.2rem;
+  font-size: clamp(3.2rem, 5.625vw, 4.5rem);
+  min-height: 0vw;
 }
+h2 {
+  font-size: 2.4rem;
+  font-size: clamp(2.4rem, 4vw, 3.2rem);
+  min-height: 0vw;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  line-height: 32px;
  
-header img {
-    width: 80px;
-  
-    margin: 16px 0 14px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-size: clamp(2rem, 2.5vw, 2.4rem);
+  min-height: 0vw;
+  font-size: 16px;
+  margin-top: 24px;
+
 }
 
 
-sup {
-    vertical-align:text-top;
-    font-size:small;
-    }
+/* 
+h3 { */
+  /* width: 60%; */
+/* } */
 
+h3 >p {
 
-
-
-
-
+  background:linear-gradient(transparent 60%, #9fd8f7 60%);
+  display: inline;
+ 
+}
 main {
-    margin: 16px;
+  margin: 56px 56px;
+  max-width: 600px;
+}
+
+main h3  { 
+  
+  font-weight: normal;
+  
+
+}
+
+main span >p {
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+
+main li {
+  display: flex;
+  gap: 16px;
+
+
+}
+
+main li > img {
+  width: 24px;
+  height: 24px;
+}
+
+  
+
+
+main li > p {
+  color: #1fb9ee;
+  margin-top: 18px;
+}
+
+p {
+  margin: 24px 0;
+}
+
+
+/* h2 {
+  margin-bottom: 16px;
+  margin-top: 16px;
+  line-height: 32px;
+}
+
+h3 { 
+  font-size: 16px;
+} */
+.container {
+  display: flex;
+  gap: 16px;
+
+}
+.container img {
+  width: 38%;
+}
+
+aside {
+  background-color: #e6e6e6;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+aside >img {
+width:90%;
+
+}
+
+.zu2 {
+  width: 100%;
+  margin: 16px 0;
+ 
+
+}
+
+img {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#logo img {
+  
+  width: 14%;
+  margin: 4% auto;
+  display: block;
   
 }
-     
 
-main img {
-    width: 65%;
-    margin-top: 16px;
-    margin-bottom: 4px;
-
-
-
-
-}
-
-main span {
-    font-size: 13px;
+header h1 img {
+  display: block;
+  width: 100%;
+ margin: 0 auto;
 }
 
 
-#key_visual img {
-    width: 100%;
+.book-list {
+  width: 75%;
+  margin-bottom: 0;
 }
-
-.container {
-    display: flex;
-    gap: 8px;
-
-
-
-
+.book-list2 {
+  width: 50%;
+  margin-bottom: 0
+}
+.book-list3 {
+  width: 70%;
+  margin-bottom: 0
 }
 
 
 
-.container img {
-    width: 150px;
+.list {
+  width: 85%;
 }
 
-.container p {
-    width: 100%;
+.movie {
+  width: 100%;
 }
-
-.container2 p {
-    width: 100%;
-   
-}
-.container2 img {
-    width: 100%;
-}
-
-
-.container2 {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    gap: 16px;
-
-
-}
-
-
-
-
-.list-image img {
-    width: 40%;
-
-}
-
-.list-image2 img {
-    width: 32%;
-}
-
-.list-text p { 
-    margin: 0;
- 
-}
-
-
-.zu {
-    width: 168%;
-    margin-bottom:24px;
-}
-
-#check-list {
-    width:155%;
-   
-    margin-bottom: 16px;
-   
-
-}
-
-#pic-b  img {
-    width: 100%;
-
-}
-
-#list-b img {
-    width: 80%;
-}
-
-#point img {
-    width: 50%; 
-}
-
-#advice-title {
-    margin-top: 40px;
-}
-
-#advice2-text img {
-    width: 50%;
-}
-
-#advice3-text {
-    margin-top: 24px;
-}
-
-
-
-.list-text p {
-    margin-bottom:16px;
-}
-
-
-
-
-
-
-
-
 
 footer {
-    background-color: #333;
-    margin-top: 40px;
+  background: #000000;
 
-    padding-top: 16px;
-    font-family: 游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
-    
-    padding: 16px 0;
-    color: #cccc;
-  
-    font-size: 10px;
-    text-align: center;
-    
+  color: #ffffff;
+  padding: 32px;
+  text-align: center;
+ 
+ 
+
 
 }
 
-
-footer p {
-    游ゴシック体, YuGothic, "游ゴシック Medium", "Yu Gothic Medium", 游ゴシック, "Yu Gothic", メイリオ, sans-serif;
-    font-weight:normal;
-}
 
 
 
 
 
 @media (min-width:600px) {
-
-
-    p {
-        font-size: 24px;
-        line-height: 32px;
-        
-        
-    }
- 
-    main span {
-     font-size: 18px;
- }   
-
-
-
- 
-
-
- .container img {
-    width: 220px;
-     
-  }
-  .container p {
-      width: 100%;
-  }   
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:1024px) {
-
-    main {
-        margin: 32px;
-        
-    }
-
-
-    .logo img {
-        width: 10%;
-    }
-
-    
-    
-
-
-
-    
-  p {
-       font-size: 28px;
-       line-height: 42px;
-       margin: 32px 0;
-       
- }
-
-   main span {
-    font-size: 22px;
-}   
-    #point img {
-       
-        margin-top: 32px;
-    }
-
-
-   .zu {
-       margin: 32px 0;
-   }
    
-.container {
-      gap:0;
-      margin: 40px 0;
-}
+ /* body {
+  margin: 0 auto;
+} */
 
-.container img {
-     width: 400px;
-      
+main {
+  margin:0 auto;
 }
-.container p {
-       width: 95%;
-       margin-top: 8px;
-       
-}
+ 
 
-.container2 img {
-    width: 600px;
-    
+header img {
+  max-width: 680px;
+}
+#logo {
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 
-.container2 p {
-    text-align: left;
+h3 {
+  margin-top: 56px;
 }
 
-#advice-title {
-    margin-top: 48px;
+.book-list {
+  width: 65%;
+  margin-bottom: 0;
 }
-
-#advice2-text img {
-    margin-top: 48px;
+.book-list2 {
+  width: 35%;
+  margin-bottom: 0
 }
-
-#advice3-text {
-    margin-top: 64px;
-    margin-bottom: 32px;
+.book-list3 {
+  width: 55%;
+  margin-bottom: 0
 }
 
 
 
-    }
-
-    
+}
